@@ -3,12 +3,13 @@
 #include<math.h>
 int main()
 {
-clrscr();
+
 char *single_digit[]={"One","Two","Three","Four","Five","Six","Seven","Eight","Nine"};
 char *double_digit[]={"Ten","Eleven","Twelve","Thirteen","Forteen","Fifteen","Sixteen","Seventeen","Eighteen","Ninteen"};
 char *ten_multiple[]={"Twenty","Thirty","Forty","Fifty","Sixty","Seventy","Eighty","Ninty"};
 char *ten_power[]={" ","Hundred","Thousand","Lakh","Crore"};
 long long int number,len=0,temp,maxPower,i=1,rem,z=0;
+int variableTemp=10;
 cout<<" Enter the number ";
 cin>>number;
 temp=number;
